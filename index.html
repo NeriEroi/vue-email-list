@@ -16,7 +16,7 @@
 <body>
 
     <div id="root">
-        <h1>{{ listaEmails }}</h1>
+        <h1 v-if="listaEmails.length == 10">{{ listaEmails }}</h1>
     </div>
 
     <script src="js/main.js"></script>
